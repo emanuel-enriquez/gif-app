@@ -1,0 +1,14 @@
+
+    <h3 class="text-center">Historial</h3>
+
+    <hr class="text-light"/>
+
+    <div class="list-group">
+        <a 
+            *ngFor="let h of historial"
+            class="list-group-item list-group-item-action"
+            (click)="buscar(h)"
+        >{{h}}</a>
+        
+
+    </div>

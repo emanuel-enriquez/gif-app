@@ -1,0 +1,10 @@
+.all-screen{
+    height: 100vh;
+    padding-right: 40px;
+    border-right: 2px solid white;
+    width:20%;
+}
+.busqueda{
+    border-bottom: 2px gray solid;
+    padding-bottom: 20px;
+}
